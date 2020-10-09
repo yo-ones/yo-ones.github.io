@@ -1,0 +1,847 @@
+
+
+
+
+/* end splash footer */
+
+
+
+/*grid components for non-eng folks*/
+
+
+/*featured post*/
+
+.featured-post {
+  /*  room for nav*/
+  padding-top: 105px;
+}
+
+/*nav*/
+
+
+/*social links*/
+
+.post-social-header {
+  font-size: 24px;
+  font-family: 'MaisonNeue Mono', monospace;
+}
+
+.post-social-links {
+  margin-top: 15px;
+}
+
+.post-social-links > a {
+  display: inline-block;
+  font-weight: 400;
+  padding: 0.4em 0.7em;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  margin-bottom: 0.4em;
+  background-color: white;
+}
+
+/*blog homepage feature header*/
+
+.blog-feature-header-container {
+  margin-bottom: 24px;
+  /*  room for nav*/
+  padding-top: 3px;
+}
+
+.blog-feature-header-container > a:focus,
+.blog-feature-header-container > a:hover {
+  text-decoration: none;
+}
+
+.blog-feature-header {
+  font-size: 0;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
+}
+
+@media screen and (min-width: 600px) {
+  .blog-feature-header-container {
+    margin-bottom: 40px;
+    padding-top: 14px;
+  }
+
+  .blog-feature-header {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .blog-feature-header-container {
+    padding-top: 38px;
+  }
+}
+
+.blog-feature-header-image > img {
+  display: block;
+  height: 328px;
+  margin: 0 auto;
+  object-fit: cover;
+  width: 335px;
+}
+
+@media screen and (min-width: 600px) {
+  .blog-feature-header-image > img {
+    height: 322px;
+    width: 329px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .blog-feature-header-image > img {
+    height: 447px;
+    width: 457px;
+  }
+}
+
+.blog-feature-header-text {
+  box-sizing: border-box;
+  padding: 0 16px;
+  text-transform: uppercase;
+  vertical-align: bottom;
+}
+
+.blog-feature-header-text h1 {
+  font-size: 24px;
+  line-height: 1.25;
+}
+
+@media screen and (min-width: 600px) {
+  .blog-feature-header-image {
+    display: inline-block;
+    margin-left: 30px;
+    width: 40%;
+  }
+
+  .blog-feature-header-text {
+    display: inline-block;
+    letter-spacing: 1.9px;
+    margin-right: 30px;
+    padding: 0 28px;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .blog-feature-header-text {
+    padding: 0 30px;
+  }
+
+  .blog-feature-header-text h1 {
+    font-size: 36px;
+    line-height: 1.33;
+  }
+}
+
+.blog-feature-header-cta {
+  font-size: 14px;
+  font-family: 'MarkPro';
+  margin-top: 30px;
+}
+
+.blog-feature-dotted-line {
+  width: 200px;
+  border-bottom: dashed 1px;
+  display: inline-block;
+}
+
+@media screen and (min-width: 1000px) {
+  .blog-feature-dotted-line {
+    width: 230px;
+  }
+}
+
+.blog-feature-header-read-story {
+  letter-spacing: 1.94px;
+  text-align: right;
+}
+
+span.blog-feature-header-icon {
+  font-weight: bold;
+  position: relative;
+  top: 1px;
+}
+
+/*latest stories*/
+
+.latest-stories-container {
+  max-width: 1000px;
+  margin: 24px auto 0;
+  font-size: 0;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+
+.latest-stories-container article {
+  min-width: 280px;
+}
+
+.blog-latest-stories-heading {
+  font-family: 'MaisonNeue Mono', monospace;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.blog-latest-stories-sub-heading {
+  font-family: 'MaisonNeue Mono', monospace;
+  color: #9b9b9b;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.blog-latest-stories-tags {
+  text-transform: uppercase;
+  font-family: 'MarkPro';
+  font-size: 14px;
+  letter-spacing: 1.9px;
+}
+
+.latest-stories-band-container {
+  position: relative;
+}
+
+.blog-latest-stories-container {
+  vertical-align: top;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 600px) {
+  .blog-latest-stories-container {
+    width: 32%;
+    display: inline-block;
+    margin-left: 2%;
+    box-sizing: border-box;
+    min-height: 675px;
+    min-width: 280px;
+  }
+
+  .blog-latest-stories-container:nth-child(3n) {
+    margin-left: 0;
+  }
+}
+
+.blog-latest-stories-image > img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.blog-latest-stories-header {
+  font-family: 'MaisonNeue Mono', monospace;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.blog-latest-stories-header:hover {
+  text-decoration: underline;
+}
+
+.blog-latest-stories-preview {
+  font-family: 'MaisonNeue Book';
+  font-size: 18px;
+  line-height: normal;
+  color: #666666;
+}
+
+/*recommender*/
+
+.recommender {
+  width: 100%;
+  background-color: black;
+  margin-left: 0;
+}
+
+.recommender-title {
+  width: 100%;
+  text-align: center;
+}
+
+.recommender-title-header {
+  font-size: 45px;
+  font-family: 'MaisonNeue Mono', monospace;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.recommender-title-subheader {
+  font-size: 18px;
+  font-family: 'MaisonNeue Mono', monospace;
+  color: #9b9b9b;
+  margin-bottom: 45px;
+}
+
+.recommender-image {
+  width: 320px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.recommended-posts {
+  width: 100%;
+}
+
+.recommended-post {
+  vertical-align: top;
+  margin: 0 auto 45px auto;
+  width: 70%;
+}
+
+@media screen and (min-width: 600px) {
+  .recommended-post {
+    width: 30%;
+    display: inline-block;
+  }
+
+  .recommended-post + .recommended-post {
+    margin-left: 5%;
+  }
+}
+
+.recommended-title {
+  color: white;
+  font-family: 'MaisonNeue Mono', monospace;
+  font-size: 24px;
+}
+
+.recommended-title:hover {
+  text-decoration: underline;
+}
+
+.recommended-post-tags {
+  text-transform: uppercase;
+  font-family: 'MarkPro';
+  font-size: 14px;
+  letter-spacing: 1.9px;
+}
+
+.recommended-post-tags > a {
+  color: white;
+}
+
+/* caret */
+
+.caret {
+  position: relative;
+  width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.caret:before,
+.caret:after {
+  content: '';
+  position: absolute;
+}
+
+.caret-down:before {
+  top: 0;
+  left: 0;
+  border-top: 10px solid #ffffff;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.caret-down:after {
+  left: 2px;
+  top: 0;
+  border-top: 8px solid #000000;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+}
+
+.caret-up:before {
+  top: 0;
+  left: 0;
+  border-bottom: 10px solid #ffffff;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.caret-up:after {
+  left: 2px;
+  top: 2px;
+  border-bottom: 8px solid #000000;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+}
+
+/* mql form */
+
+.mql-slide-out {
+  width: 100%;
+  padding: 20px 10px;
+  background: var(--main-accent-color);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition: transform 1s ease;
+  -ms-transition: transform 1s ease;
+  transition: transform 1s ease;
+}
+
+@media screen and (min-width: 600px) {
+  .mql-slide-out {
+    width: 388px;
+    padding: 40px 32px;
+  }
+}
+
+.mql-slide-out-visible {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.mql-form-heading {
+  max-width: 270px;
+  margin: 0 auto 20px auto;
+  font-size: 16px;
+  font-family: 'MaisonNeue Mono', monospace;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .mql-form-heading {
+    margin: 0 auto 30px auto;
+  }
+}
+
+.mql-slide-out-expanded {
+  top: 0;
+  height: 100%;
+  overflow: scroll;
+}
+
+@media screen and (min-width: 600px) {
+  .mql-slide-out-expanded {
+    top: auto;
+    height: auto;
+    overflow: auto;
+  }
+}
+
+.mql-slide-out-expanded .mql-form-heading {
+  margin: 0 auto 15px auto;
+}
+
+.mql-form-container {
+  display: none;
+}
+
+.mql-form-label {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'MaisonNeue Book';
+  color: white;
+}
+
+.mql-form-description {
+  max-width: 280px;
+  margin: 0 auto 30px auto;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+.mql-form-input-container {
+  margin: 0 0 20px 0;
+}
+
+.mql-cta {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  min-width: 190px;
+}
+
+.mql-input {
+  width: 100%;
+  background: var(--main-accent-color);
+  border: solid 1px var(--dark-grey);
+  padding: 14px 20px;
+  color: white;
+  font-size: 16px;
+}
+
+.mql-toggle {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.mql-submit {
+  display: block;
+  margin: 0 auto;
+}
+
+.mql-checkmark {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  position: relative;
+  background: white;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -moz-appearance: default;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.mql-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.mql-checkmark:checked:after {
+  display: block;
+}
+
+.mql-tos-input {
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.mql-tos-container {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  margin: 0 0 20px 0;
+}
+
+.mql-tos,
+.mql-tos-agreement {
+  font-size: 10px;
+  font-family: 'MaisonNeue Book';
+  color: var(--medium-grey);
+}
+
+.mql-tos {
+  display: none;
+}
+
+.mql-tos-agreement {
+  flex: 1;
+  position: relative;
+  padding: 0 10px;
+}
+
+.mql-tos-caret {
+  transform: translateY(-4px) scale(0.7);
+  position: absolute;
+  top: 50%;
+  right: 15px;
+}
+
+.mql-tos-caret.caret-down:before {
+  border-top-color: var(--medium-grey);
+}
+
+.mql-tos-caret.caret-up:before {
+  border-bottom-color: var(--medium-grey);
+}
+
+.mql-checkmark:after {
+  left: 5px;
+  top: 0;
+  width: 5px;
+  height: 9px;
+  border: solid var(--main-accent-color);
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.mql-success {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.mql-success-heading {
+  margin: 0 0 20px 0;
+  font-family: 'MaisonNeue Mono', monospace;
+}
+
+.mql-success-description {
+  margin: 0 auto;
+  max-width: 175px;
+  font-size: 14px;
+}
+
+/* Tag pages */
+.tag-header-container {
+  background-color: #121112;
+}
+
+.tag-header {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 80px 15px 33px;
+}
+
+@media screen and (min-width: 640px) {
+  .tag-header {
+    align-items: center;
+    flex-direction: row;
+    padding: 146px 15px 82px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .tag-header {
+    padding: 142px 15px 82px;
+  }
+}
+
+.tag-info h2 {
+  font-family: 'MaisonNeue Mono', monospace;
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 0 0 8px;
+  text-transform: uppercase;
+}
+
+.tag-info p {
+  line-height: normal;
+  margin: 0 0 32px;
+}
+
+.tag-page .blog-lead-capture {
+  margin: 0;
+  padding: 0;
+}
+
+.newsletter-signup {
+  background-color: #fff;
+  box-shadow: 5px 5px 0 0 #000, 5px 5px 0 1px #fff;
+  color: #000;
+  max-height: 360px;
+  padding: 23px 19px 24px;
+}
+
+@media screen and (min-width: 640px) {
+  .newsletter-signup-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .newsletter-signup {
+    max-width: 330px;
+  }
+
+  .tag-info {
+    padding-right: 30px;
+  }
+
+  .tag-info, .newsletter-signup-container {
+    flex: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .tag-info {
+    padding-right: 113px;
+  }
+
+  .newsletter-signup-container {
+    justify-content: flex-end;
+    padding-right: 97px;
+  }
+
+  .newsletter-signup {
+    max-width: 361px;
+  }
+}
+
+.newsletter-signup h4 {
+  font-size: 18px;
+  line-height: 1.44;
+  margin: 0 auto 24px;
+  text-align: center;
+  width: 90%;
+}
+
+.newsletter-signup label {
+  font-family: 'MaisonNeue Book';
+  font-size: 12px;
+}
+
+.newsletter-signup input {
+  display: block;
+}
+
+.newsletter-signup input[type="email"] {
+  border: 1px solid #000;
+  height: 40px;
+  font-size: 14px;
+  margin-bottom: 19px;
+  padding: 10px;
+  width: 100%;
+}
+
+.newsletter-signup input[type="submit"] {
+  background-color: #000;
+  border: 0;
+  color: #fff;
+  font-family: 'MarkPro', sans-serif;
+  font-size: 14px;
+  margin-bottom: 33px;
+  padding: 14px 0;
+  width: 100%;
+}
+
+.newsletter-signup p, .newsletter-signup a {
+  display: block;
+  font-family: 'MaisonNeue Mono', monospace;
+  font-size: 12px;
+  margin: 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 1000px) {
+  .newsletter-signup p, .newsletter-signup a {
+    font-size: 14px;
+  }
+
+  .newsletter-signup input[type="submit"] {
+    font-size: 18px;
+  }
+}
+
+.newsletter-signup a {
+  text-decoration: underline;
+}
+
+.tag-page .latest-stories-container {
+  padding-top: 0;
+  min-height: auto;
+}
+
+.tag-page .latest-stories-heading {
+  color: #000;
+}
+
+/* Hub menu */
+.hub-menu {
+  background-color: #fe1b00;
+}
+
+.hub-menu-content {
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+  padding: 32px 0;
+}
+
+.hub-menu h3 {
+  font-family: 'MaisonNeue Mono', monospace;
+  font-size: 20px;
+  margin: 0 0 24px;
+}
+
+.hub-menu ul {
+  list-style: none;
+  font-size: 0;
+}
+
+.hub-menu li {
+  display: inline-block;
+  margin: 0 8px 16px;
+}
+
+.hub-menu a {
+  background-color: #fff;
+  border: 1px solid #000;
+  display: block;
+  font-family: 'MarkPro', sans-serif;
+  font-size: 12px;
+  letter-spacing: 1.29px;
+  padding: 7px 15px;
+  text-transform: uppercase;
+}
+
+.hub-menu a:focus,
+.hub-menu a:hover {
+  box-shadow: 3px 3px 0 #000;
+  text-decoration: none;
+  transform: translate(-3px, -3px);
+}
+
+@media screen and (min-width: 640px) {
+  .hub-menu h3 {
+    font-size: 27px;
+    margin: 0 0 24px;
+  }
+
+  .hub-menu ul {
+    margin: 0 auto;
+    max-width: 90%;
+  }
+
+  .hub-menu a {
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    padding: 8px 16px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .hub-menu-content {
+    padding: 51px 0;
+  }
+
+  .hub-menu h3 {
+    font-size: 30px;
+    margin: 0 0 40px;
+  }
+
+  .hub-menu li {
+    margin: 0 15px 24px;
+  }
+}
+
+/* Blog title SVG */
+.blog-title {
+  margin: 0 auto;
+  padding-top: 59px;
+  width: 300px;
+}
+
+.blog-title svg {
+  width: 100%;
+}
+
+@media screen and (min-width: 640px) {
+  .blog-title {
+    padding-top: 84px;
+    width: 371px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .blog-title {
+    padding-top: 105px;
+    width: 618px;
+  }
+}
