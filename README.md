@@ -9,7 +9,6 @@
 
   <h3 align="center">yoones</h3>
 
-  <a href="https://github.com/yo-ones/yo-ones.github.io"><strong>Yoones</strong></a>
     <br />
   </p>
 </p>
@@ -20,7 +19,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
