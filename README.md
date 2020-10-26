@@ -16,11 +16,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
- by [Alex](https://github.com/afuh) <strong>Thank you !</strong>
+<a href="https://yo-ones.github.io">
+    <img src="arch/github.svg " alt="Logo" width="50" height="50">
+  </a>
 
 
 <!-- LICENSE -->
