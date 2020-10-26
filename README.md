@@ -3,16 +3,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/benharrimohamed/Rick-and-morty/">
-    <img src="images/logo.png" alt="Logo" width="100" height="100">
+  <a href="https://github.com/yo-ones/yo-ones.github.io">
+    <img src="arch/1-02.jpg " alt="Logo" width="100" height="100">
   </a>
 
-  <h3 align="center">Rick & Morty !</h3>
+  <h3 align="center">yoones</h3>
 
   <p align="center">
     Check out all Rick & Morty show Characters
     <br />
-  <a href="https://benharrimohamed.github.io/Rick-and-morty/"><strong>Rick & Morty</strong></a>
+  <a href="https://github.com/yo-ones/yo-ones.github.io"><strong>Yoones</strong></a>
     <br />
   </p>
 </p>
